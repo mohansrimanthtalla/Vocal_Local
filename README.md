@@ -100,7 +100,7 @@ Vocal Local is built to run immediately in any modern web browser without comple
      # Or using Node.js
      npx serve .
      ```
-   * **View on
+   * View on
     ```
      https://mohansrimanthtalla.github.io/Vocal_Local/   
 
