@@ -76,7 +76,7 @@ Rather than building fragmented, disconnected apps, LocalVyapar leverages **Role
 
 ## 🚀 Quick Start & Installation
 
-LocalVyapar is built to run immediately in any modern web browser without complex setup.
+Vocal Local is built to run immediately in any modern web browser without complex setup.
 
 ### Prerequisites
 * Google Chrome, Microsoft Edge, or Safari (Chrome/Edge recommended for full Web Speech API compatibility).
@@ -86,8 +86,8 @@ LocalVyapar is built to run immediately in any modern web browser without comple
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-team/Vocal Local.git
-   cd Vocal Local
+   git clone https://github.com/mohansrimanthtalla/Vocal_Local.git
+   cd Vocal_Local
    ```
 
 2. **Open the application:**
