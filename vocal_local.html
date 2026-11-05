@@ -4,6 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VOCAL LOCAL — Visual &amp; Voice Commerce for Everyone</title>
+  <!-- Firebase App and Firestore SDKs (v10 modular CDN) -->
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+  import { 
+    getFirestore, 
+    collection, 
+    addDoc, 
+    onSnapshot, 
+    doc, 
+    updateDoc 
+  } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+  // Replace with your exact keys from Firebase Console
+  const firebaseConfig = {
+    apiKey: "YOUR_API_KEY",
+    authDomain: "vocal-local.firebaseapp.com",
+    projectId: "vocal-local",
+    storageBucket: "vocal-local.appspot.com",
+    messagingSenderId: "YOUR_SENDER_ID",
+    appId: "YOUR_APP_ID"
+  };
+
+  // Initialize Firebase & Database
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+  // Expose functions to your window or app logic
+  window.db = db;
+  window.dbUtils = { collection, addDoc, onSnapshot, doc, updateDoc };
+</script>
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
