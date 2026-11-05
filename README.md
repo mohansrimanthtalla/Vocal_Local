@@ -100,7 +100,12 @@ Vocal Local is built to run immediately in any modern web browser without comple
      # Or using Node.js
      npx serve .
      ```
+   * ** View on
+    ```
+    # https://mohansrimanthtalla.github.io/Vocal_Local/   
 
+     ```
+     this browser
 3. **Grant Microphone Access:** When switching to **Vendor Mode** and clicking the microphone button, grant audio permissions to test live voice dictation.
 
 ---
