@@ -1,4 +1,4 @@
-# LocalVyapar 🏪🎙️
+# Vocal Local 🏪🎙️
 
 > **A Unified, Voice-First Hyperlocal Commerce Ecosystem for Local Retailers & Neighborhood Communities**  
 > *Built for Hackathon Track 05: Local Business & Livelihoods*
@@ -22,13 +22,13 @@ As a result:
 
 ## 💡 Our Solution
 
-**LocalVyapar** is a unified, voice-first hyperlocal e-commerce ecosystem that connects unorganized local vendors directly with neighborhood customers in a single web application.
+**Vocal Local** is a unified, voice-first hyperlocal e-commerce ecosystem that connects unorganized local vendors directly with neighborhood customers in a single web application.
 
 Rather than building fragmented, disconnected apps, LocalVyapar leverages **Role-Based Access Control (RBAC)** to deliver three seamless experiences from one centralized operational core:
 
 ```
                           ┌──────────────────────────┐
-                          │   LocalVyapar Platform   │
+                          │   Vocal Local Platform   │
                           │   (Central State Core)   │
                           └─────────────┬────────────┘
                                         │
@@ -86,8 +86,8 @@ LocalVyapar is built to run immediately in any modern web browser without comple
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-team/localvyapar.git
-   cd localvyapar
+   git clone https://github.com/your-team/Vocal Local.git
+   cd Vocal Local
    ```
 
 2. **Open the application:**
@@ -100,7 +100,6 @@ LocalVyapar is built to run immediately in any modern web browser without comple
      # Or using Node.js
      npx serve .
      ```
-   * Open `http://localhost:3000` in your browser.
 
 3. **Grant Microphone Access:** When switching to **Vendor Mode** and clicking the microphone button, grant audio permissions to test live voice dictation.
 
@@ -133,10 +132,10 @@ Follow this sequence when presenting to hackathon judges:
 
 | Team Member | Role | Key Contributions |
 | :--- | :--- | :--- |
-| **[Member 1 Name]** | Voice AI & Parsing Lead | Web Speech API integration, regex entity parser, dictation fallbacks |
-| **[Member 2 Name]** | Frontend & UX Lead | Responsive customer storefront, cart drawer, Tailwind UI components |
-| **[Member 3 Name]** | Logistics & State Lead | Delivery radar dashboard, real-time RBAC synchronization, PWA setup |
-| **[Member 4 Name]** | Product & Pitch Lead | User journey mapping, market sizing, slide deck, demo coordination |
+| **[Talla Mohan Srimanth]** | Voice AI & Parsing Lead | Web Speech API integration, regex entity parser, dictation fallbacks |
+| **[Ramini Vinay]** | Frontend & UX Lead | Responsive customer storefront, cart drawer, Tailwind UI components |
+| **[Majji Guna Sekhar]** | Logistics & State Lead | Delivery radar dashboard, real-time RBAC synchronization, PWA setup |
+| **[Moida Jitendra Kumar]** | Product & Pitch Lead | User journey mapping, market sizing, slide deck, demo coordination |
 
 ---
 
